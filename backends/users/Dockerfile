@@ -1,5 +1,5 @@
 FROM python:3.8
-LABEL maintainer="elijahobara357@gmail.com"
+LABEL maintainer="elijahobara357gmail.com"
 
 WORKDIR /app
 
@@ -8,7 +8,7 @@ COPY api.py /app
 
 RUN pip install -r requirements.txt
 
-EXPOSE 8001
+EXPOSE 8002
 
 ENTRYPOINT ["python"]
 CMD ["api.py"]
